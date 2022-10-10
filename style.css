@@ -1,0 +1,124 @@
+body {
+    background: white;
+    font-family: sans-serif;
+    justify-content: center;
+    padding: 50px 20px 300px 20px;
+    text-align: center;
+}
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1602057512587-76d5cc4b34e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    padding: 5%;
+}
+
+.avatar {
+    border: none;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin: 30px auto;
+}
+
+.pro {
+    text-shadow: 0px 0px 3px black;
+}
+
+.produk {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px auto 20px auto;
+    width: 200px;
+    height: 200px;
+}
+
+.kaos1 {
+    border-bottom: 6px solid black;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.kaos2 {
+    border-bottom: 6px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.wa {
+    background: #25D366;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    text-decoration: none; color: white;
+    width: 190px;
+}
+
+.buy {
+    background: orange;
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 5px 10px;
+    text-decoration: none; color: white;
+    width: 190px;
+}
+
+.feature {
+    background: #f0f0f0;
+    border-radius: 10px;
+    display: block;
+    justify-content: space-around;
+    margin: 100px auto 50px auto;
+    padding: 50px;
+    width: 400px;
+}
+
+.bi {
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+#loc {
+    background: #4285F4;
+    border-radius: 5px;
+    color: white;
+    padding: 6px;
+}
+
+.channel-tg {
+    background: #229ed9;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-around;
+    line-height: 20px;
+    margin: 50px auto;
+    padding: 10px 5px;
+    width: 400px;
+}
+
+.channel-tg:hover {
+    background: #0088cc;
+    font-size: 25px;
+}
